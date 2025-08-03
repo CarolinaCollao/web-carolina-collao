@@ -96,7 +96,7 @@ body {
 }
 
 .hero-bg-image {
-  background-image: url('/assets/IMG/portada.jpg');
+  background-image: url('portada.jpg');
   background-size: cover;
   background-position: center;
   position: absolute;
@@ -568,5 +568,6 @@ footer {
   text-align: left;
   width: 45%;
 }
+
 
 
