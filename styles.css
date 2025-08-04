@@ -440,7 +440,7 @@ footer {
 }
 
 /* RESPONSIVE */
-@media (max-width: 600px) {
+@media (max-width: 992px) {
   #nav-toggle {
     display: block;
   }
@@ -568,6 +568,7 @@ footer {
   text-align: left;
   width: 45%;
 }
+
 
 
 
