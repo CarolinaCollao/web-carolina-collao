@@ -568,6 +568,37 @@ footer {
   width: 45%;
 }
 
+@media (max-width: 768px) {
+  .modal-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #modal-img {
+    max-width: 90vw;
+    max-height: 60vh;
+    margin-bottom: 1rem;
+  }
+
+  .modal-controls {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    width: 100%;
+  }
+
+  #modal-prev,
+  #modal-next {
+    position: static;
+    font-size: 1.5rem;
+    background: var(--color-secundario);
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+  }
+}
+
 
 
 
